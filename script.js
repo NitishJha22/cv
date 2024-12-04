@@ -139,7 +139,7 @@ achievements.innerHTML = `
     <li>Worked with open source org R project and completed my project with <code>data.table</code> during Google Summer of Code 2024.</li>
     <li>President of Training and Placement Club (Oct 2023).</li>
     <li>
-      Solved <a href="https://leetcode.com/u/Nitishj221102/" target="_blank">190+ problems on LeetCode</a> (Dec 2023).
+      Solved <a href="https://leetcode.com/u/Nitishj221102/" target="_blank">190+ problems on LeetCode</a>.
     </li>
   </ul>
 `;
