@@ -160,27 +160,19 @@ em {
 /* Skills Grid */
 
 .skills-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); /* Uniform column size */
-  gap: 12px; /* Consistent spacing between badges */
-  margin-top: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
 .skill-badge {
-  background-color: #21262d; /* Flat, professional background */
-  color: #c9d1d9; /* Subtle grey text */
-  width: 100%; /* Ensure badges take up full width of the grid column */
-  height: 40px; /* Fixed height for consistency */
-  display: flex; /* Use flexbox for centering */
-  justify-content: center; /* Center text horizontally */
-  align-items: center; /* Center text vertically */
-  border-radius: 10px; /* Rounded edges */
-  font-size: 0.85rem; /* Standardized font size */
-  font-weight: 500; /* Medium font weight */
-  text-transform: uppercase; /* All caps for professionalism */
-  box-shadow: none; /* No unnecessary shadows */
-  border: 1px solid #30363d; /* Subtle border for clean separation */
-  transition: transform 0.2s ease, background-color 0.2s ease; /* Smooth hover effect */
+  background-color: #30363d; /* Dark grey */
+  color: #c9d1d9; /* Light grey */
+  padding: 5px 10px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
 }
 
 .skill-badge:hover {
