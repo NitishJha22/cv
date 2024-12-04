@@ -2,7 +2,7 @@
 const header = document.getElementById("header");
 header.innerHTML = `
   <h1>Nitish Jha</h1>
-  <p>New Delhi, INDIA | +91-7678303875 | <a href="#">LinkedIn</a> | <a href="#">GitHub</a></p>
+  <p>New Delhi, INDIA | +91-7678303875 | <a href="https://www.linkedin.com/in/nitish-jha-2b82aa155/">LinkedIn</a> | <a href="https://github.com/Nj221102">GitHub</a></p>
 `;
 
 // Render Photo
