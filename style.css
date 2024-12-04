@@ -1,97 +1,125 @@
 /* Global Styles */
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #121212;
-    color: #e0e0e0;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .container {
-    max-width: 900px;
-    margin: 30px auto;
-    padding: 20px;
-    background: #1f1f1f;
-    border-radius: 12px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.8);
-  }
-  
-  /* Header */
-  header {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  
-  header h1 {
-    font-size: 2.2rem;
-    margin: 0;
-    color: #f3f3f3;
-  }
-  
-  header p {
-    margin: 5px 0;
-    color: #a0a0a0;
-  }
-  
-  header a {
-    color: #00bcd4;
-    text-decoration: none;
-    margin: 0 5px;
-  }
-  
-  /* Photo Section */
-  #photo {
-    display: flex;
-    justify-content: center;
-    margin: 20px 0;
-  }
-  
-  #photo img {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    border: 3px solid #00bcd4;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
-  }
-  
-  /* Section Styles */
-  section {
-    margin-bottom: 30px;
-  }
-  
-  section h2 {
-    font-size: 1.8rem;
-    color: #00bcd4;
-    border-bottom: 2px solid #333;
-    padding-bottom: 5px;
-    margin-bottom: 15px;
-  }
-  
-  ul {
-    list-style: none;
-    padding-left: 0;
-  }
-  
-  ul li {
-    margin-bottom: 10px;
-    line-height: 1.6;
-  }
-  
-  ul li strong {
-    color: #f3f3f3;
-  }
-  
-  ul li em {
-    color: #a0a0a0;
-    font-style: italic;
-  }
-  
-  /* Links */
-  a {
-    color: #00bcd4;
-    text-decoration: none;
-  }
-  
-  a:hover {
-    text-decoration: underline;
-  }
+  font-family: 'Roboto', sans-serif; /* Professional font */
+  background-color: #121212; /* Black background */
+  color: #e0e0e0; /* Light grey text for readability */
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+  background: #1e1e1e; /* Slightly lighter black for content area */
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.8);
+}
+
+/* Header Content */
+.header-content {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.header-content h1 {
+  font-size: 2.5rem;
+  margin: 0;
+  color: #ffffff; /* Pure white for the name */
+  font-weight: 700;
+}
+
+.header-details {
+  margin-top: 10px;
+  font-size: 1rem;
+  color: #a0a0a0; /* Medium grey for details */
+}
+
+.header-details i {
+  margin-right: 5px;
+  color: #00bcd4; /* Cyan for icons */
+}
+
+.header-link {
+  color: #00bcd4; /* Cyan for links */
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.header-link:hover {
+  text-decoration: underline;
+}
+
+/* Photo Section */
+#photo {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+#photo img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid #00bcd4; /* Cyan border */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+/* Section Styles */
+section {
+  margin-bottom: 30px;
+}
+
+section h2 {
+  font-size: 1.8rem;
+  color: #ffffff; /* White for section titles */
+  border-bottom: 2px solid #333333; /* Dark grey underline */
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+ul li strong {
+  color: #ffffff; /* White for emphasis */
+}
+
+ul li em {
+  color: #a0a0a0; /* Medium grey for secondary text */
+  font-style: italic;
+}
+
+/* Skills Grid */
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skill-badge {
+  background-color: #333333; /* Dark grey background for badges */
+  color: #e0e0e0; /* Light grey text */
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Links */
+a {
+  color: #00bcd4; /* Cyan links */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
