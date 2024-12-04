@@ -33,10 +33,16 @@ about.innerHTML = `
 // Render Resume Links
 const resumeLinks = document.getElementById("resume-links");
 resumeLinks.innerHTML = `
-  <h2>Resume & Links</h2>
+  <h2>Links</h2>
   <p>
-    <a href="https://docs.google.com/document/d/1_94nuu6HIlEyYFykkSs6pltFox3GLkSNBQb9-3Q6Ps4/edit?usp=sharing" target="_blank">Resume</a> |
-    <a href="https://summerofcode.withgoogle.com/archive/2024/projects/Yy7ajjAG" target="_blank">Google Summer of Code - R Project (2024)</a>
+    <ul> 
+      <li>
+        <a href="https://docs.google.com/document/d/1_94nuu6HIlEyYFykkSs6pltFox3GLkSNBQb9-3Q6Ps4/edit?usp=sharing" target="_blank">My CV</a> 
+       </li>
+      <li>
+        <a href="https://summerofcode.withgoogle.com/archive/2024/projects/Yy7ajjAG" target="_blank"> Google Summer of Code - R Project (2024)</a>
+      </li>
+    </ul>
   </p>
 `;
 
@@ -83,7 +89,6 @@ experience.innerHTML = `
     </li>
   </ul>
 `;
-
 // Render Skills
 const skills = document.getElementById("skills");
 skills.innerHTML = `
@@ -91,46 +96,41 @@ skills.innerHTML = `
   <div>
     <h3>Programming Languages</h3>
     <div class="skills-grid">
-      <span class="skill-badge">R</span>
-      <span class="skill-badge">Java</span>
       <span class="skill-badge">JavaScript</span>
       <span class="skill-badge">Python</span>
+      <span class="skill-badge">R</span>
+      <span class="skill-badge">TypeScript</span>
       <span class="skill-badge">C</span>
       <span class="skill-badge">Ruby</span>
-      <span class="skill-badge">Go</span>
     </div>
     <h3>Frameworks</h3>
     <div class="skills-grid">
       <span class="skill-badge">Node.js</span>
-      <span class="skill-badge">React.js</span>
-      <span class="skill-badge">Express.js</span>
+      <span class="skill-badge">React</span>
+      <span class="skill-badge">Express</span>
       <span class="skill-badge">Ruby on Rails</span>
     </div>
     <h3>Tools</h3>
     <div class="skills-grid">
       <span class="skill-badge">Git</span>
-      <span class="skill-badge">GitHub</span>
-      <span class="skill-badge">GitLab</span>
-      <span class="skill-badge">Postman</span>
       <span class="skill-badge">Docker</span>
+      <span class="skill-badge">Postman</span>
     </div>
     <h3>Databases</h3>
     <div class="skills-grid">
-      <span class="skill-badge">MongoDB</span>
       <span class="skill-badge">MySQL</span>
+      <span class="skill-badge">MongoDB</span>
       <span class="skill-badge">Postgres</span>
     </div>
     <h3>Soft Skills</h3>
     <div class="skills-grid">
-      <span class="skill-badge">Time Management</span>
-      <span class="skill-badge">Problem-Solving</span>
       <span class="skill-badge">Leadership</span>
+      <span class="skill-badge">Problem-Solving</span>
+      <span class="skill-badge">Time Management</span>
       <span class="skill-badge">Documentation</span>
-      <span class="skill-badge">Presentation</span>
     </div>
   </div>
 `;
-
 // Render Achievements
 const achievements = document.getElementById("achievements");
 achievements.innerHTML = `
@@ -144,11 +144,34 @@ achievements.innerHTML = `
   </ul>
 `;
 
-// Render Certificates
 const certificates = document.getElementById("certificates");
 certificates.innerHTML = `
   <h2>Certificates</h2>
   <ul>
     <li><a href="https://docs.google.com/document/d/1QOcN2W-jsp9ekdjn8nybrAkG_svYSdt-Rt_dUhamAPw/edit?tab=t.0" target="_blank">Google Summer of Code 2024 Certificate</a></li>
+  </ul>
+`;
+
+// Render Projects
+const projects = document.getElementById("projects");
+projects.innerHTML = `
+  <h2>Projects</h2>
+  <ul>
+    <li>
+      <strong>Scarpe</strong> <span class="align-right"><em>Dec 2023 – Present</em></span>
+      <ul>
+        <li>Contributed to Scarpe, an early-stage prototype aimed at resurrecting the Shoes library.</li>
+        <li>Successfully merged 10 pull requests, improving functionality and fixing critical bugs.</li>
+        <li>Added new features such as tooltip, font-family, and font-weight, enhancing the library’s user experience.</li>
+      </ul>
+    </li>
+    <li>
+      <strong>R/data.table</strong> <span class="align-right"><em>Jan 2024 – Present</em></span>
+      <ul>
+        <li>Enhanced the <code>data.table</code> package by addressing critical issues and resolving bugs.</li>
+        <li>Successfully merged 20+ pull requests during Google Summer of Code 2024.</li>
+        <li>Implemented new features and improved documentation for better usability.</li>
+      </ul>
+    </li>
   </ul>
 `;
