@@ -47,13 +47,13 @@ education.innerHTML = `
   <ul>
     <li>
       <strong>Polaris School of Technology (Starex University)</strong> 
-      <br>B.Tech in Computer Science | SGPA: 8.59 
-      <br><em>Aug 2023 - Present, Gurugram, Haryana</em>
+      <span class="align-right"><em>Aug 2023 - Present | Gurugram, Haryana</em></span>
+      <br>B.Tech in Computer Science | SGPA: 8.59
     </li>
     <li>
       <strong>M.B.S International School, Greater Noida</strong> 
-      <br>Senior Secondary School (STEM) | CGPA: 8.0 
-      <br><em>Mar 2021 - Mar 2023, Noida, UP</em>
+      <span class="align-right"><em>Mar 2021 - Mar 2023 | Noida, UP</em></span>
+      <br>Senior Secondary School (STEM) | CGPA: 8.0
     </li>
   </ul>
 `;
@@ -65,7 +65,7 @@ experience.innerHTML = `
   <ul>
     <li>
       <strong>Software Engineer Intern @Classplus</strong> 
-      <br><em>Nov 2024 - Present</em>
+      <span class="align-right"><em>Nov 2024 - Present</em></span>
       <ul>
         <li>Developed and migrated APIs, abstracting database queries using ORMs in TypeScript.</li>
         <li>Built scalable server infrastructure in Go (Golang) with SQL (MySQL) and NoSQL (MongoDB).</li>
@@ -74,7 +74,7 @@ experience.innerHTML = `
     </li>
     <li>
       <strong>Google Summer of Code 2024 @R Project</strong>
-      <br><em>May 2024 - Aug 2024</em>
+      <span class="align-right"><em>May 2024 - Aug 2024</em></span>
       <ul>
         <li>Contributed to the <code>data.table</code> package, resolving issues and improving functionality.</li>
         <li>Enhanced performance optimizations and documentation for better user experience.</li>
@@ -87,28 +87,61 @@ experience.innerHTML = `
 // Render Skills
 const skills = document.getElementById("skills");
 skills.innerHTML = `
-  <h2>My Skills</h2>
-  <div class="skills-grid">
-    <span class="skill-badge">R</span>
-    <span class="skill-badge">C</span>
-    <span class="skill-badge">Java</span>
-    <span class="skill-badge">Ruby</span>
-    <span class="skill-badge">JavaScript</span>
-    <span class="skill-badge">TypeScript</span>
-    <span class="skill-badge">HTML</span>
-    <span class="skill-badge">CSS</span>
-    <span class="skill-badge">Node.js</span>
-    <span class="skill-badge">Express.js</span>
-    <span class="skill-badge">Ruby on Rails</span>
-    <span class="skill-badge">RESTful APIs</span>
-    <span class="skill-badge">Git</span>
-    <span class="skill-badge">Docker</span>
-    <span class="skill-badge">VS Code</span>
-    <span class="skill-badge">Postman</span>
-    <span class="skill-badge">data.table</span>
-    <span class="skill-badge">dplyr</span>
-    <span class="skill-badge">ggplot2</span>
+  <h2>Skills</h2>
+  <div>
+    <h3>Programming Languages</h3>
+    <div class="skills-grid">
+      <span class="skill-badge">R</span>
+      <span class="skill-badge">Java</span>
+      <span class="skill-badge">JavaScript</span>
+      <span class="skill-badge">Python</span>
+      <span class="skill-badge">C</span>
+      <span class="skill-badge">Ruby</span>
+      <span class="skill-badge">Go</span>
+    </div>
+    <h3>Frameworks</h3>
+    <div class="skills-grid">
+      <span class="skill-badge">Node.js</span>
+      <span class="skill-badge">React.js</span>
+      <span class="skill-badge">Express.js</span>
+      <span class="skill-badge">Ruby on Rails</span>
+    </div>
+    <h3>Tools</h3>
+    <div class="skills-grid">
+      <span class="skill-badge">Git</span>
+      <span class="skill-badge">GitHub</span>
+      <span class="skill-badge">GitLab</span>
+      <span class="skill-badge">Postman</span>
+      <span class="skill-badge">Docker</span>
+    </div>
+    <h3>Databases</h3>
+    <div class="skills-grid">
+      <span class="skill-badge">MongoDB</span>
+      <span class="skill-badge">MySQL</span>
+      <span class="skill-badge">Postgres</span>
+    </div>
+    <h3>Soft Skills</h3>
+    <div class="skills-grid">
+      <span class="skill-badge">Time Management</span>
+      <span class="skill-badge">Problem-Solving</span>
+      <span class="skill-badge">Leadership</span>
+      <span class="skill-badge">Documentation</span>
+      <span class="skill-badge">Presentation</span>
+    </div>
   </div>
+`;
+
+// Render Achievements
+const achievements = document.getElementById("achievements");
+achievements.innerHTML = `
+  <h2>Achievements</h2>
+  <ul>
+    <li>Worked with open source org R project and completed my project with <code>data.table</code> during Google Summer of Code 2024.</li>
+    <li>President of Training and Placement Club (Oct 2023).</li>
+    <li>
+      Solved <a href="https://leetcode.com/u/Nitishj221102/" target="_blank">190+ problems on LeetCode</a> (Dec 2023).
+    </li>
+  </ul>
 `;
 
 // Render Certificates
@@ -117,22 +150,5 @@ certificates.innerHTML = `
   <h2>Certificates</h2>
   <ul>
     <li><a href="https://docs.google.com/document/d/1QOcN2W-jsp9ekdjn8nybrAkG_svYSdt-Rt_dUhamAPw/edit?tab=t.0" target="_blank">Google Summer of Code 2024 Certificate</a></li>
-  </ul>
-`;
-
-// Render Projects and Open Source Contributions
-const projects = document.getElementById("projects");
-projects.innerHTML = `
-  <h2>Projects & Open Source Contributions</h2>
-  <ul>
-    <li>
-      <a href="https://summerofcode.withgoogle.com/archive/2024/projects/Yy7ajjAG" target="_blank">Google Summer of Code - R Project (2024)</a>
-    </li>
-    <li>
-      <a href="https://nj221102.github.io/Nitish-gSoc-24/2024-08-24-gsoc'24-summary/" target="_blank">Open Source Contributions: GSoC'24 Summary</a>
-    </li>
-    <li>
-      <a href="https://github.com/scarpe-team/scarpe/pulls?q=is%3Apr+author%3ANj221102" target="_blank">Scarpe Contributions</a>
-    </li>
   </ul>
 `;

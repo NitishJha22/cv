@@ -1,8 +1,8 @@
 /* Global Styles */
 body {
-  font-family: 'Roboto', sans-serif; /* Professional font */
-  background-color: #121212; /* Black background */
-  color: #e0e0e0; /* Light grey text for readability */
+  font-family: 'Roboto', sans-serif;
+  background-color: #0d1117; /* Dark background */
+  color: #c9d1d9; /* Light grey text */
   margin: 0;
   padding: 0;
 }
@@ -11,37 +11,37 @@ body {
   max-width: 900px;
   margin: 30px auto;
   padding: 20px;
-  background: #1e1e1e; /* Slightly lighter black for content area */
-  border-radius: 8px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.8);
+  background: #161b22; /* Slightly lighter black */
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
 }
 
-/* Header Content */
+/* Header */
 .header-content {
   text-align: center;
   margin-bottom: 20px;
 }
 
 .header-content h1 {
-  font-size: 2.5rem;
+  font-size: 2.8rem;
   margin: 0;
-  color: #ffffff; /* Pure white for the name */
+  color: #f0f6fc; /* Pure white for name */
   font-weight: 700;
 }
 
 .header-details {
   margin-top: 10px;
   font-size: 1rem;
-  color: #a0a0a0; /* Medium grey for details */
+  color: #8b949e; /* Grey for secondary details */
 }
 
 .header-details i {
   margin-right: 5px;
-  color: #00bcd4; /* Cyan for icons */
+  color: #58a6ff; /* Cyan for icons */
 }
 
 .header-link {
-  color: #00bcd4; /* Cyan for links */
+  color: #58a6ff; /* Cyan links */
   text-decoration: none;
   font-weight: 500;
 }
@@ -50,7 +50,7 @@ body {
   text-decoration: underline;
 }
 
-/* Photo Section */
+/* Photo */
 #photo {
   display: flex;
   justify-content: center;
@@ -58,22 +58,22 @@ body {
 }
 
 #photo img {
-  width: 120px;
-  height: 120px;
+  width: 130px;
+  height: 130px;
   border-radius: 50%;
-  border: 3px solid #00bcd4; /* Cyan border */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+  border: 3px solid #58a6ff; /* Cyan border */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
 }
 
-/* Section Styles */
+/* Section */
 section {
   margin-bottom: 30px;
 }
 
 section h2 {
   font-size: 1.8rem;
-  color: #ffffff; /* White for section titles */
-  border-bottom: 2px solid #333333; /* Dark grey underline */
+  color: #f0f6fc;
+  border-bottom: 2px solid #30363d; /* Subtle grey underline */
   padding-bottom: 5px;
   margin-bottom: 15px;
 }
@@ -89,12 +89,19 @@ ul li {
 }
 
 ul li strong {
-  color: #ffffff; /* White for emphasis */
+  color: #f0f6fc; /* White for emphasis */
 }
 
 ul li em {
-  color: #a0a0a0; /* Medium grey for secondary text */
+  color: #8b949e; /* Grey for secondary text */
   font-style: italic;
+}
+
+.align-right {
+  float: right;
+  font-size: 0.9rem;
+  color: #8b949e;
+  margin-left: 15px;
 }
 
 /* Skills Grid */
@@ -105,21 +112,30 @@ ul li em {
 }
 
 .skill-badge {
-  background-color: #333333; /* Dark grey background for badges */
-  color: #e0e0e0; /* Light grey text */
+  background-color: #30363d; /* Dark grey */
+  color: #c9d1d9; /* Light grey */
   padding: 5px 10px;
-  border-radius: 5px;
+  border-radius: 8px;
   font-size: 0.9rem;
   font-weight: 500;
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
 }
 
 /* Links */
 a {
-  color: #00bcd4; /* Cyan links */
+  color: #58a6ff;
   text-decoration: none;
 }
 
 a:hover {
   text-decoration: underline;
+}
+
+/* Achievements */
+#achievements ul {
+  padding-left: 0;
+}
+
+#achievements ul li {
+  margin-bottom: 15px;
 }
