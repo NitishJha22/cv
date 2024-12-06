@@ -1,8 +1,7 @@
-/* Global Styles */
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: #0d1117; /* Dark background */
-  color: #c9d1d9; /* Light grey text */
+  background-color: #0d1117; 
+  color: #c9d1d9; 
   margin: 0;
   padding: 0;
   line-height: 1.7;
@@ -12,13 +11,12 @@ body {
   max-width: 900px;
   margin: 30px auto;
   padding: 20px;
-  background: #161b22; /* Slightly lighter black */
+  background: #161b22;
   border-radius: 15px;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.6);
-  animation: fadeIn 0.5s ease-in-out; /* Add animation for smooth appearance */
+  animation: fadeIn 0.5s ease-in-out; 
 }
 
-/* Fade-in animation */
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -30,7 +28,6 @@ body {
   }
 }
 
-/* Header */
 .header-content {
   text-align: center;
   margin-bottom: 30px;
@@ -39,7 +36,7 @@ body {
 .header-content h1 {
   font-size: 3rem;
   margin: 0;
-  color: #f0f6fc; /* White for name */
+  color: #f0f6fc; 
   font-weight: 700;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -48,7 +45,7 @@ body {
 
 .header-tagline {
   font-size: 1.5rem;
-  color: #58a6ff; /* Highlighted blue */
+  color: #58a6ff; 
   margin-top: 10px;
   font-style: italic;
 }
@@ -56,26 +53,26 @@ body {
 .header-details {
   margin-top: 20px;
   font-size: 1.1rem;
-  color: #8b949e; /* Grey for secondary details */
+  color: #8b949e; 
 }
 
 .header-details i {
   margin-right: 8px;
-  color: #58a6ff; /* Cyan for icons */
+  color: #58a6ff;
 }
 
 .header-link {
-  color: #58a6ff; /* Cyan links */
+  color: #58a6ff; 
   text-decoration: none;
   font-weight: bold;
 }
 
 .header-link:hover {
   text-decoration: underline;
-  color: #79c0ff; /* Lighter cyan on hover */
+  color: #79c0ff; 
 }
 
-/* Photo */
+
 #photo {
   display: flex;
   justify-content: center;
@@ -86,19 +83,19 @@ body {
   width: 140px;
   height: 140px;
   border-radius: 50%;
-  border: 4px solid #58a6ff; /* Cyan border */
+  border: 4px solid #58a6ff; 
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.7);
 }
 
-/* Section Box */
+
 section {
-  background: #1c2229; /* Slightly lighter background for boxes */
-  border: 1px solid #30363d; /* Subtle border for distinction */
+  background: #1c2229; 
+  border: 1px solid #30363d; 
   border-radius: 12px;
   margin-bottom: 25px;
   padding: 25px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
-  transition: transform 0.2s ease, box-shadow 0.2s ease; /* Add hover effect */
+  transition: transform 0.2s ease, box-shadow 0.2s ease; 
 }
 
 section:hover {
@@ -108,16 +105,15 @@ section:hover {
 
 section h2 {
   font-size: 1.8rem;
-  color: #f0f6fc; /* White for headings */
+  color: #f0f6fc; 
   text-transform: uppercase;
   letter-spacing: 1px;
-  border-bottom: 2px solid #30363d; /* Subtle grey underline */
+  border-bottom: 2px solid #30363d; 
   padding-bottom: 5px;
   margin-bottom: 20px;
   text-shadow: 2px 2px 8px rgba(255, 255, 255, 0.1);
 }
 
-/* Unordered List Styling */
 ul {
   list-style: none;
   padding-left: 0;
@@ -131,33 +127,29 @@ ul li {
 }
 
 ul li::before {
-  content: '•'; /* Bullet style */
+  content: '•';
   position: absolute;
   left: 0;
-  color: #58a6ff; /* Cyan bullet */
+  color: #58a6ff; 
   font-size: 1.2rem;
 }
 
-/* Highlighted Text */
 strong {
-  color: #f0f6fc; /* White for emphasis */
+  color: #f0f6fc;
   font-weight: bold;
 }
 
 em {
-  color: #8b949e; /* Grey for secondary text */
+  color: #8b949e; 
   font-style: italic;
 }
 
-/* Align Right Text */
 .align-right {
   float: right;
   font-size: 0.9rem;
   color: #8b949e;
   margin-left: 15px;
 }
-
-/* Skills Grid */
 
 .skills-grid {
   display: flex;
@@ -166,8 +158,8 @@ em {
 }
 
 .skill-badge {
-  background-color: #30363d; /* Dark grey */
-  color: #c9d1d9; /* Light grey */
+  background-color: #30363d; 
+  color: #c9d1d9; 
   padding: 5px 10px;
   border-radius: 8px;
   font-size: 0.9rem;
@@ -176,13 +168,12 @@ em {
 }
 
 .skill-badge:hover {
-  background-color: #58a6ff; /* Light blue hover */
-  color: #161b22; /* Dark text on hover */
-  transform: scale(1.05); /* Slight zoom effect on hover */
-  border-color: #79c0ff; /* Subtle hover border */
+  background-color: #58a6ff; 
+  color: #161b22; 
+  transform: scale(1.05); 
+  border-color: #79c0ff; 
 }
 
-/* Links */
 a {
   color: #58a6ff;
   text-decoration: none;
@@ -194,7 +185,6 @@ a:hover {
   color: #79c0ff;
 }
 
-/* Achievements Section */
 #achievements ul {
   padding-left: 0;
 }
@@ -203,7 +193,6 @@ a:hover {
   margin-bottom: 15px;
 }
 
-/* Smooth Hover Animation */
 a, button, section, .skill-badge {
   transition: all 0.3s ease-in-out;
 }

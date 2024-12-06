@@ -1,4 +1,3 @@
-// Render Header
 const header = document.getElementById("header");
 header.innerHTML = `
   <div class="header-content">
@@ -16,13 +15,11 @@ header.innerHTML = `
   </div>
 `;
 
-// Render Photo
 const photo = document.getElementById("photo");
 photo.innerHTML = `
   <img src="pic.png" alt="Your Photo">
 `;
 
-// Render About Me
 const about = document.getElementById("about");
 about.innerHTML = `
   <h2>About Me</h2>
@@ -64,7 +61,6 @@ education.innerHTML = `
   </ul>
 `;
 
-// Render Experience
 const experience = document.getElementById("experience");
 experience.innerHTML = `
   <h2>Experience</h2>
@@ -89,7 +85,7 @@ experience.innerHTML = `
     </li>
   </ul>
 `;
-// Render Skills
+
 const skills = document.getElementById("skills");
 skills.innerHTML = `
   <h2>Skills</h2>
@@ -131,7 +127,7 @@ skills.innerHTML = `
     </div>
   </div>
 `;
-// Render Achievements
+
 const achievements = document.getElementById("achievements");
 achievements.innerHTML = `
   <h2>Achievements</h2>
@@ -152,7 +148,6 @@ certificates.innerHTML = `
   </ul>
 `;
 
-// Render Projects
 const projects = document.getElementById("projects");
 projects.innerHTML = `
   <h2>Projects</h2>
